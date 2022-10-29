@@ -4,12 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-winit = { version = "^0.26", features = ["wayland", "x11"] }
 tokio = { version = "^1.13", features = ["full"] }
-futures = {version = "^0.3" }
-nalgebra = { version = "^0.30" }
 pretty_env_logger = { version = "^0.4" }
-log = { version = "^0.4" }
-hashbrown = { version = "^0.12"}
 
 eng = { version = "^0.1", git = "https://github.com/dlunch/eng" }
